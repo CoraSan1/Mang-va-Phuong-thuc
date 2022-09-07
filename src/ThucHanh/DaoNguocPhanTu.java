@@ -1,5 +1,7 @@
 package ThucHanh;
 
+import java.util.Arrays;
+
 public class DaoNguocPhanTu {
     public static void main(String[] args) {
         int[] arr = {1,3,5,7};
@@ -10,9 +12,8 @@ public class DaoNguocPhanTu {
             arr[i] = arr[arr.length - 1 - i];
             arr[arr.length - 1 - i] = c;
         }
-        for (int i = 0; i < arr.length; i++){
-            System.out.print(arr[i]);
-        }
+        System.out.print(Arrays.toString(arr));
+
     }
 
 }
