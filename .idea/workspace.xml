@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fd77ecc-fb81-4ff6-b259-aa2cceb64a69" name="Changes" comment="Dao Nguoc Phan tu">
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/ChuyenDoiNhietDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/TimGiaTriTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/TimMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThucHanh/TimMinDungPhuongThuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaiTap/ThemPhanTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaiTap/TimMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BaiTap/XoaPhanTuKhoiMang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThucHanh/DaoNguocPhanTu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThucHanh/DaoNguocPhanTu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +37,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TimMinDungPhuongThuc">
+  <component name="RunManager" selected="Application.ThemPhanTu">
     <configuration name="DaoNguocPhanTu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThucHanh.DaoNguocPhanTu" />
       <module name="Mang va Phuong thuc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ThucHanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThemPhanTu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiTap.ThemPhanTu" />
+      <module name="Mang va Phuong thuc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BaiTap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThemPhanTu" />
         <item itemvalue="Application.TimMinDungPhuongThuc" />
         <item itemvalue="Application.DaoNguocPhanTu" />
       </list>
@@ -82,6 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662557162725</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dao Nguoc Phan tu">
+      <created>1662559420032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662559420032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
